@@ -1,0 +1,2 @@
+require("sanchayj")
+print(hello)
