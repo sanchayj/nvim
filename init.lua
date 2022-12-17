@@ -1,2 +1,2 @@
 require "sanchayj.remap"
-print("Hello")
+require "sanchayj.options"
