@@ -1,2 +1,1 @@
 require("sanchayj")
-print(hello)
