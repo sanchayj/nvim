@@ -1,1 +1,2 @@
-require("sanchayj")
+require "sanchayj.remap"
+print("Hello")
