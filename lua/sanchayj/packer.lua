@@ -17,4 +17,7 @@ return require('packer').startup(function(use)
   -- Theme
   use 'Mofiqul/dracula.nvim'
 
+  -- Treesitter for syntax highlighting
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
 end)
