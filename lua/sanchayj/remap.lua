@@ -26,6 +26,15 @@ vim.keymap.set("n", "Q", "<nop>")
 -- Keep cursor in the original spot when joining lines
 vim.keymap.set("n", "J", "mzJ`z")
 
+-- Vim better window navigation
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
+vim.keymap.set("n", "<C-k>", "<C-w>k")
+
+-- Open new window
+vim.keymap.set("n", "<C-t>", "<C-w>v")
+
 -- Tmux session swapping
 -- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
