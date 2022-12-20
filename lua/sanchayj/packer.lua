@@ -26,4 +26,7 @@ return require('packer').startup(function(use)
   -- Have a visual history of undos
   use 'mbbill/undotree'
 
+  -- Git integration
+  use 'tpope/vim-fugitive'
+
 end)
