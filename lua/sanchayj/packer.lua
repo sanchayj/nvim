@@ -20,4 +20,7 @@ return require('packer').startup(function(use)
   -- Treesitter for syntax highlighting
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
+  -- Quicker navigation of common files
+  use 'ThePrimeagen/harpoon'
+
 end)
