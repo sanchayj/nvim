@@ -23,4 +23,7 @@ return require('packer').startup(function(use)
   -- Quicker navigation of common files
   use 'ThePrimeagen/harpoon'
 
+  -- Have a visual history of undos
+  use 'mbbill/undotree'
+
 end)
