@@ -52,4 +52,22 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  -- Git status lines
+  use {
+      'lewis6991/gitsigns.nvim',
+      config = function()
+          require('gitsigns').setup()
+      end
+  }
+
+  -- Status bar 
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  -- LSP for Go (minimal)
+  use('crispgm/nvim-go')
+  use('rcarriga/nvim-notify')
+
 end)

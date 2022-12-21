@@ -41,10 +41,12 @@ lsp.setup_nvim_cmp({
 lsp.set_preferences({
     suggest_lsp_servers = false,
     sign_icons = {
-        error = 'E',
-        warn = 'W',
-        hint = 'H',
-        info = 'I'
+        -- icons / text used for a diagnostic
+        error = "",
+        warning = "",
+        hint = "",
+        information = "",
+        other = "﫠"
     }
 })
 
@@ -72,4 +74,5 @@ lsp.setup()
 
 vim.diagnostic.config({
     virtual_text = true,
+    signs = true,
 })
