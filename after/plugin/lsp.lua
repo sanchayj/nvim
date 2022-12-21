@@ -4,7 +4,6 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'gopls',
-  'golangci_lint_ls',
   'pylsp',
   'sumneko_lua',
   'rust_analyzer',
@@ -20,7 +19,6 @@ lsp.configure('sumneko_lua', {
         }
     }
 })
-
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
