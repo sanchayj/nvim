@@ -70,4 +70,7 @@ return require('packer').startup(function(use)
   use('crispgm/nvim-go')
   use('rcarriga/nvim-notify')
 
+  -- Commenting
+  use "terrortylor/nvim-comment"
+
 end)
