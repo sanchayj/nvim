@@ -27,7 +27,7 @@ vim.opt.expandtab = true                        -- convert tabs to spaces
 vim.opt.number = true                           -- set numbered lines
 vim.opt.relativenumber = true                   -- enables relative numbering to current line
 vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
-vim.opt.wrap = false                            -- display lines as one long line
+vim.opt.wrap = true                             -- Split up long lines 
 vim.opt.scrolloff = 8                           -- minimal number of screen lines to keep above and below the cursor
 -- vim.opt.colorcolumn = "80"                   -- create a line showing where lines should end
 
