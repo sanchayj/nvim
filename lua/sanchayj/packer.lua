@@ -73,4 +73,10 @@ return require('packer').startup(function(use)
   -- Commenting
   use "terrortylor/nvim-comment"
 
+  -- Markdown Preview
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
 end)
