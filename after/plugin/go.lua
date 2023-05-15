@@ -13,7 +13,7 @@ require('go').setup({
     -- linters: revive, errcheck, staticcheck, golangci-lint
     linter = 'golangci-lint',
     -- linter_flags: e.g., {revive = {'-config', '/path/to/config.yml'}}
-    linter_flags = {},
+    linter_flags = {'--allow-parallel-runners'},
     -- lint_prompt_style: qf (quickfix), vt (virtual text)
     lint_prompt_style = 'qf',
     -- formatter: goimports, gofmt, gofumpt, lsp
