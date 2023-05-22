@@ -15,7 +15,7 @@ require('go').setup({
     -- linter_flags: e.g., {revive = {'-config', '/path/to/config.yml'}}
     linter_flags = {'--allow-parallel-runners'},
     -- lint_prompt_style: qf (quickfix), vt (virtual text)
-    lint_prompt_style = 'qf',
+    lint_prompt_style = 'vt',
     -- formatter: goimports, gofmt, gofumpt, lsp
     formatter = 'goimports',
     -- maintain cursor position after formatting loaded buffer
