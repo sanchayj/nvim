@@ -125,5 +125,6 @@ cmp.setup({
   },
   mapping = cmp.mapping.preset.insert({
     ['<C-Space>'] = cmp.mapping.complete(),
+    ['<cr>'] = cmp.mapping.confirm({ select = true })
   }),
 })
